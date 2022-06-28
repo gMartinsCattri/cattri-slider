@@ -12,19 +12,19 @@ body {
   overflow: hidden;
 }
 
-.swiper-slide {
+/* .swiper-slide {
   background-position: center;
   background-size: cover;
   width: 300px;
   height: 400px;
-}
+} */
 
-@media (max-width: 768px) {
+
   .swiper-slide {
     width: 250px;
     height: auto;
   }
-}
+
 
 .swiper-slide img {
   display: block;
@@ -46,11 +46,12 @@ body {
   width: 70%;
   position: absolute;
   left: 50%;
-  bottom: -16vw;
+  bottom: auto;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 2;
   padding-bottom: 3vw;
+  height: 2900px;
 }
 
 @media (max-width: 768px) {
